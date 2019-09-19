@@ -40,7 +40,7 @@ class BoxList extends React.Component {
   render() {
     return (
       <div>
-        <NewBoxForm addBox={this.addBox} removeBox={this.removeBox} />
+        <NewBoxForm addBox={this.addBox}/>
         {this.renderBoxList()}
       </div>
     )
