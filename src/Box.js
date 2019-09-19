@@ -2,7 +2,6 @@ import React from 'react';
 
 class Box extends React.Component {
   render() {
-    console.log(this.props);
     const boxStyle = {
       height: `${this.props.height}px`,
       width: `${this.props.width}px`, 

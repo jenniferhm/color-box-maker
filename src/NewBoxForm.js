@@ -23,15 +23,15 @@ class NewBoxForm extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label htmlFor="height">Height:</label>
-        <input name="height" value={this.state.height}
+        <input id="height" name="height" value={this.state.height}
           onChange={this.handleChange} />
 
         <label htmlFor="width">Width:</label>
-        <input name="width" value={this.state.width}
+        <input id="width"  name="width" value={this.state.width}
           onChange={this.handleChange} />
 
         <label htmlFor="color">Color:</label>
-        <input name="color" value={this.state.color}
+        <input id="color" name="color" value={this.state.color}
           onChange={this.handleChange} />
 
         <button>Add a new box!</button>

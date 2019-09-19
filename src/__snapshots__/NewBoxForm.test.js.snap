@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="height"
+  >
+    Height:
+  </label>
+  <input
+    id="height"
+    name="height"
+    onChange={[Function]}
+    value=""
+  />
+  <label
+    htmlFor="width"
+  >
+    Width:
+  </label>
+  <input
+    id="width"
+    name="width"
+    onChange={[Function]}
+    value=""
+  />
+  <label
+    htmlFor="color"
+  >
+    Color:
+  </label>
+  <input
+    id="color"
+    name="color"
+    onChange={[Function]}
+    value=""
+  />
+  <button>
+    Add a new box!
+  </button>
+</form>
+`;
